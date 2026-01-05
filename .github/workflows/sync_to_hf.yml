@@ -14,8 +14,14 @@ jobs:
           fetch-depth: 0
           lfs: true
 
+      - name: Install Git LFS
+        run: git lfs install
+
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        # Updated to match: zayesosa/animal-extinct-species
-        run: git push --force https://zayesosa:$HF_TOKEN@huggingface.co/spaces/zayesosa/animal-extinct-species main
+        run: |
+          # 1. Force the runner to download the actual model/images
+          git lfs pull
+          # 2. Push everything to the Hugging Face Space
+          git push --force https://zayesosa:$HF_TOKEN@huggingface.co/spaces/zayesosa/animal-extinct-species main
