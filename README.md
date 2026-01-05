@@ -8,17 +8,15 @@ app_port: 8000 # <--- Change this from 7860 to 8000
 pinned: false
 ---
 
-# Animal Extinct Species Classifier
-
-(Rest of your README content continues here...)
-
 # Animal Extinction Classifier
 
 A full-stack Deep Learning application that identifies 11 different animal species. Built with **GoogLeNet**, **ONNX Runtime**, and **FastAPI**.
 
 <p align="center">
   <img src="screenshot.png" alt="Application Screenshot" width="800">
+  <a href="https://huggingface.co/spaces/zayesosa/animal-extinct-species">Hugging Face Live Demo</a>
 </p>
+
 
 ## 🌟 Features
 
