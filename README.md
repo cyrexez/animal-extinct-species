@@ -1,3 +1,13 @@
+---
+title: Animal Extinct Species Classifier
+emoji: 🦁
+colorFrom: green
+colorTo: blue
+sdk: docker
+app_port: 8000 
+pinned: false
+---
+
 # Animal Extinction Classifier
 
 A full-stack Deep Learning application that identifies 11 different animal species. Built with **GoogLeNet**, **ONNX Runtime**, and **FastAPI**.
