@@ -17,4 +17,5 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://cyrexez:$HF_TOKEN@huggingface.co/spaces/cyrexez/animal-extinct-species-classifier main
+        # Updated to match: zayesosa/animal-extinct-species
+        run: git push --force https://zayesosa:$HF_TOKEN@huggingface.co/spaces/zayesosa/animal-extinct-species main
