@@ -14,7 +14,7 @@ A full-stack Deep Learning application that identifies 11 different animal speci
 
 <p align="center">
   <img src="screenshot.png" alt="Application Screenshot" width="800">
-  <a href="https://huggingface.co/spaces/zayesosa/animal-extinct-species">Hugging Face Live Demo</a>
+  <a width="800"> href="https://huggingface.co/spaces/zayesosa/animal-extinct-species">Hugging Face Live Demo</a>
 </p>
 
 
