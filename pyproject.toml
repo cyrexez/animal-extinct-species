@@ -1,0 +1,14 @@
+[project]
+name = "animal-extinct-species-classifier"
+version = "0.1.0"
+description = "Endangered animal species classifier with web UI"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "onnxruntime>=1.19.0,<1.20.0",
+    "pillow>=10.0.0",
+    "numpy>=1.26.0",
+    "python-multipart>=0.0.9",
+    "requests>=2.31.0",
+]
